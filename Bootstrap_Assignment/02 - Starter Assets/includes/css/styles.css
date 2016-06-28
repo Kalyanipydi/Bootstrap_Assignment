@@ -1,0 +1,176 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+#features{
+  text-align: center;
+}
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+.well .page-header h3 {
+  margin-top: 0;
+}
+.well .page-header{
+  margin-top: 0;
+}
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   #searchInput{
+     width: 200px;
+   }
+   .navbar-brand{
+     padding: 13px 15px;
+   }
+
+
+
+
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+   #myCarousel
+   {
+     margin-top: 60px;
+   }
+   .carousel-caption {
+     font-size: 28px;
+
+     color: green;
+   }
+   .carousel-caption h4{
+     font-size: 33px;
+     font-weight: bold;
+    color:white;
+   }
+ #myCarousel .item{
+   height: 400px;
+ }
+ #slide1{
+   background: pink;
+ }
+ #slide2{
+   background: skyblue;
+ }
+ #slide3{
+   background:purple;
+ }
+ #bigCallout{
+margin-top: 10px;
+padding-top: 0px;
+  }
+  .page-header{
+    padding-top: 0px;
+
+  }
+  .lead{
+    color: red;
+  }
+  .line{
+    margin-top: 0;
+  }
+  #btn{
+    margin-top: 0;
+    padding-top: 0px;
+    margin-left: 15px;
+  }
+  footer
+  {
+  padding:5px;
+  text-align:center;
+  background-color:lightgrey;
+
+  }
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+.alert{
+  display: none;
+}
+.panel img{
+  width: 250px;
+  height: 250px;
+  margin:  0 0 20px;
+}
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+  #myCarousel .item{
+    height: 310px;
+  }
+  #slide1{
+    background: pink;
+  }
+  #slide2{
+    background: skyblue;
+  }
+  #slide3{
+    background: purple;
+  }
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+  #myCarousel .item{
+    height: 500px;
+  }
+  #slide1{
+    background: lightgreen;
+  }
+  #slide2{
+    background: skyblue;
+  }
+  #slide3{
+    background:purple;
+  }
+}
+/* --------------------------------------
+   footer
+   -------------------------------------- */
+
+   .col-sm-2, .col-sm-4{
+     padding-top: 10px;
+   }
+   h6{
+     padding-bottom: 10px;
+     font-weight: bold;
+   }
+   .mylist1 a, .mylist2 a{
+     color: black;
+   }
+   .mylist1{
+     margin-left: 40px;
+   }
+   .mylist2{
+     margin-left: 40px;
+   }

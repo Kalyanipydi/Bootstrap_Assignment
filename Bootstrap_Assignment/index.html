@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="description" content="">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="02 - Starter Assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+<link href="02 - Starter Assets/includes/css/bootstrap-glyphicons.css" rel="stylesheet" />
+<link href="02 - Starter Assets/includes/css/styles.css" rel="stylesheet" />
+	<script src="02 - Starter Assets/includes/js/modernizr-2.6.2.min.js"></script>
+</head>
+
+
+<body>
+
+
+<div class="container" id="main">
+
+
+  <div class="navbar navbar-fixed-top">
+  	<div class="container">
+
+  		<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+  		<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+  			<span class="icon-bar"></span>
+  			<span class="icon-bar"></span>
+  			<span class="icon-bar"></span>
+  		</button>
+
+  		<a class="navbar-brand" href="/"><img src="02 - Starter Assets/images/logo.png" alt="Your Logo"></a>
+
+  		<div class="nav-collapse collapse navbar-responsive-collapse">
+  			<ul class="nav navbar-nav">
+  				<li class="active">
+  					<a href="#">Home</a>
+  				</li>
+
+  				<li class="dropdown">
+  					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <strong class="caret"></strong></a>
+
+  					<ul class="dropdown-menu">
+  						<li>
+  							<a href="#">Web Design</a>
+  						</li>
+
+  						<li>
+  							<a href="#">Web Development</a>
+  						</li>
+
+  						<li>
+  							<a href="#">SEO</a>
+  						</li>
+              <li class="divider"></li>
+              <li class="dropdown-header">More Services</li>
+              <li>
+                <a href="#">Content Creation</a>
+                <a href="#">Social Marketing</a>
+
+              </li>
+
+
+  					</ul><!-- end dropdown-menu -->
+  				</li>
+  			</ul>
+
+  			<form class="navbar-form pull-left">
+  				<input type="text" class="form-control" placeholder="Search this site..." id="searchInput" >
+  				<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+  			</form><!-- end navbar-form -->
+
+  			<ul class="nav navbar-nav pull-right">
+  				<li class="dropdown">
+  					<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> My Account <strong class="caret"></strong></a>
+
+  					<ul class="dropdown-menu">
+  						<li>
+  							<a href="#"><span class="glyphicon glyphicon-wrench"></span> Settings</a>
+  						</li>
+
+  						<li>
+  							<a href="#"><span class="glyphicon glyphicon-refresh"></span> Update Profile</a>
+  						</li>
+
+  						<li>
+  							<a href="#"><span class="glyphicon glyphicon-briefcase"></span> Billing</a>
+  						</li>
+
+  						<li class="divider"></li>
+
+  						<li>
+  							<a href="#"><span class="glyphicon glyphicon-off"></span> Sign out</a>
+  						</li>
+  					</ul>
+  				</li>
+  			</ul><!-- end nav pull-right -->
+  		</div><!-- end nav-collapse -->
+
+  	</div><!-- end container -->
+  </div><!-- end navbar -->
+
+
+	<div class="carousel slide" id="myCarousel">
+
+    <ol class="carousel-indicators">
+  		<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+  		<li data-slide-to="1" data-target="#myCarousel"></li>
+  		<li data-slide-to="2" data-target="#myCarousel"></li>
+  	</ol>
+
+  	<!-- Wrapper for slides -->
+  	<div class="carousel-inner">
+  		<div class="item active" id="slide1">
+
+  			<div class="carousel-caption">
+  				<h4>Bootstrap 3</h4>
+  				<p>Learn how to build your first responsive website with the brand new Twitter Bootstrap 3!</p>
+  			</div><!-- end carousel-caption-->
+  		</div><!-- end item -->
+
+  		<div class="item" id="slide2">
+  			<div class="carousel-caption">
+  				<h4>Learn to code a website in 4-hours!</h4>
+  				<p>PSD to HTML5 &amp; CSS3 is a popular Udemy course that has helped thousands of aspiring web designers launch their web design career.</p>
+  			</div><!-- end carousel-caption-->
+  		</div><!-- end item -->
+
+  		<div class="item" id="slide3">
+  			<div class="carousel-caption">
+  				<h4>Web Hosting 101</h4>
+  				<p>Learn how to buy a perfect domain name and hosting package, and get your website live on the web with ease.</p>
+  			</div><!-- end carousel-caption-->
+  		</div><!-- end item -->
+  	</div><!-- carousel-inner -->
+
+  	<!-- Controls -->
+  	<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+  	<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+
+	</div><!-- end myCarousel -->
+
+
+	<div class="row" id="bigCallout">
+    <div class="col-12" >
+      <div class="alert alert-success alert-block fade in" id="success">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+    <h4>Success...!!</h4>
+      </div>
+      <div class="small well-small visible-sm" >
+        <a class="btn btn-large btn-block btn-default"><span class="glyphicon glyphicon-phone"></span>Give Us A Call..!!</a>
+      </div>
+        <div class="well">
+        <div class="page-header">
+          <h3>Header Part<small>Description part</small></h3>
+
+
+        </div>
+        <p class="lead"> After Completion of the courses we are going to give you  placement offers.We are assured that 100% placements last year.</p>
+        <p>Educational technology refers to the use of both physical hardware and educational theoretics. It encompasses several domains, including learning theory, computer-based training, online learning, and, where mobile technologies are used, m-learning. Accordingly, there are several discrete aspects to describing the intellectual and technical development of educational technology</p>
+        <a href="#" class="btn btn-large btn-primary"  >Click Here For More Info</a>
+          <a href="#" class="btn btn-large btn-success"  >Click Here For Less Info</a>
+      </div>
+      </div>
+	</div><!-- end row -->
+
+
+	<div class="row" id="featuresHeading">
+<div  class="col-12">
+    <h3>More Features</h3>
+
+    <p class="lead1">Educational technology refers to the use of both physical hardware and educational theoretics. It encompasses several domains, including learning theory, computer-based training, online learning, and, where mobile technologies are used, m-learning. </p>
+
+
+</div>
+	</div><!-- end row -->
+
+
+	<div class="row" id="features">
+<div class="col-sm-4 feature">
+<div class="panel">
+  <div class="panel-heading">
+    <h3 class="panel-title">Markup with HTML5</h3>
+
+  </div>
+  <img src="imagess/download.jpg" alt="HTML5" class="img-circle" />
+  <p class="lead1">Educational technology refers to the use of both physical hardware and educational theoretics. It encompasses several domains, including learning theory, computer-based training, online learning, and, where mobile technologies are used, m-learning. </p>
+<a href="https://www.w3schools.com" target="_blank" class="btn btn-warning btn-block">Learn How to code HTML5</a>
+</div>
+</div>
+
+<div class="col-sm-4 feature">
+<div class="panel">
+  <div class="panel-heading">
+    <h3 class="panel-title">Learn JAVA Script</h3>
+
+  </div>
+  <img src="imagess/download3.jpg" alt="JAVA Script" class="img-circle" />
+  <p class="lead1">Educational technology refers to the use of both physical hardware and educational theoretics. It encompasses several domains, including learning theory, computer-based training, online learning, and, where mobile technologies are used, m-learning. </p>
+<a href="https://www.w3schools.com" target="_blank" class="btn btn-primary btn-block">Click here to learn JAVA <script type="text/javascript">
+
+</script></a>
+</div>
+</div>
+<div class="col-sm-4 feature">
+<div class="panel">
+  <div class="panel-heading">
+    <h3 class="panel-title">Online Courses</h3>
+
+  </div>
+  <img src="imagess/download4.jpg" alt="Online Cources" class="img-circle" />
+  <p class="lead1">Educational technology refers to the use of both physical hardware and educational theoretics. It encompasses several domains, including learning theory, computer-based training, online learning, and, where mobile technologies are used, m-learning. </p>
+<a href="https://www.w3schools.com" target="_blank" class="btn btn-success btn-block"> Register to a online Course</a>
+</div>
+</div>
+</div>
+<hr class="line"></hr>
+
+<div class="row" id="moreInfo">
+	<div class="col-sm-12">
+		<h3>More Courses</h3>
+		<div class="tabbable">
+			<ul class="nav nav-tabs">
+				<li class="active"><a href="#tab1" data-toggle="tab">Section 1</a></li>
+								<li><a href="#tab2" data-toggle="tab">Section 2</a></li>
+			</ul>
+			<div class="tab-content">
+				<div class="tab-pane active" id="tab1">
+					<h4>JAVA <small>oops concepts </small></h4>
+
+					<p>Java is a general-purpose computer programming language that is concurrent, class-based, object-oriented,[14] and specifically designed to have as few implementation dependencies as possible. It is intended to let application developers "write once, run anywhere" (WORA),[15] meaning that compiled Java code can run on all platforms that support Java without the need for recompilation.[16] Java applications are typically compiled to bytecode that can run on any Java virtual machine (JVM) regardless of computer architecture</p>
+            <hr />
+          <a href="#myModel" role="button" class="btn btn-warning"
+          data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span>Register here</a>
+          <div class="modal fade" id="myModel">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button class="close" data-dismiss="modal">&times;</button>
+                  <h3 class="modal-title">Register for the course</h3>
+                </div><!--End of model header-->
+                <div class="modal-body">
+                <!--	<h4>modal</h4>
+                  <a href="#" class="btn btn-danger pop">Don't click</a>
+                  <h4>Tooltip in a modal</h4>-->
+                  <p ><small class="text-muted">Enroll here</small></p>
+                  <form class="form-horizontal">
+                      <div class="form-group">
+                        <label for="name" class="col-lg-2 control-label">Enter Name</label>
+                        <div class="col-lg-10">
+                        <input class="form-control" placeholder="Name" type="text" name="name" id="name"/>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="email" class="col-lg-2 control-label">Email Address</label>
+                        <div class="col-lg-10">
+                        <input class="form-control" placeholder="Email" type="text" name="email" id="email"/>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="course" class="col-lg-2 control-label">Desired Course</label>
+                        <div class="col-lg-10">
+                        <input class="form-control" placeholder="course" type="text" name="course" id="course"/>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="col-lg-10">
+                          <button class="btn btn-success" type="submit">Submit</button>
+                        </div>
+                      </div>
+                  </form><br>
+                  <div class="modal-footer">
+                    <button class="btn btn-warning" data-dismiss="modal"
+                    type="button">Close</button>
+                  </div>
+                </div><!--End of modal body-->
+              </div ><!--end of model content-->
+            </div><!--End of modal dialog-->
+          </div><!--End of model fade-->
+
+        </div><!--End of tab1-->
+				<div class="tab-pane" id="tab2">
+					<h4>JAVA Script <small>oops scripting </small></h4>
+
+					<p>JavaScript is also used in environments that are not Web-based, such as PDF documents, site-specific browsers, and desktop widgets. Newer and faster JavaScript virtual machines (VMs) and platforms built upon them have also increased the popularity of JavaScript for server-side Web applications. On the client side, JavaScript has been traditionally implemented as an interpreted language, but more recent browsers perform just-in-time compilation. It is also used in game development, the creation of desktop and mobile applications, and server-side network programming with runtime environments such as Node.js.</p>
+
+					<hr>
+        <a href="#myModel" role="button" class="btn btn-warning"
+        data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span>Register here</a>
+        <div class="modal fade" id="myModel">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button class="close" data-dismiss="modal">&times;</button>
+                <h3 class="modal-title">Register for the course</h3>
+              </div><!--End of model header-->
+              <div class="modal-body">
+              <!--	<h4>modal</h4>
+                <a href="#" class="btn btn-danger pop">Don't click</a>
+                <h4>Tooltip in a modal</h4>-->
+                <p ><small class="text-muted">Enroll here</small></p>
+                <form class="form-horizontal">
+                    <div class="form-group">
+                      <label for="name" class="col-lg-2 control-label">Enter Name</label>
+                      <div class="col-lg-10">
+                      <input class="form-control" placeholder="Name" type="text" name="name" id="name"/>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="email" class="col-lg-2 control-label">Email Address</label>
+                      <div class="col-lg-10">
+                      <input class="form-control" placeholder="Email" type="text" name="email" id="email"/>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="course" class="col-lg-2 control-label">Desired Course</label>
+                      <div class="col-lg-10">
+                      <input class="form-control" placeholder="course" type="text" name="course" id="course"/>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="col-lg-10">
+                        <button class="btn btn-success" type="submit">Submit</button>
+                      </div>
+                    </div>
+                </form><br>
+                <div class="modal-footer">
+                  <button class="btn btn-warning" data-dismiss="modal"
+                  type="button">Close</button>
+                </div>
+              </div><!--End of modal body-->
+            </div ><!--end of model content-->
+          </div><!--End of modal dialog-->
+        </div><!--End of model fade-->
+				</div><!--End of tab2-->
+			</div><!--End of tab content-->
+
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+	</div><!-- end row -->
+
+
+
+
+
+
+	<div class="row" id="moreCourses">
+<!-- <a href="#myModel" role="button" id="btn" class="btn btn-warning " data-toggle="model" ><span class="glyphicon glyphicon-hand-up"></span>Click for Model Window</a>
+<div class="modal fade" id="myModel">
+  <div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button class="close" data-dismiss="modal">&times;</button>
+<h4 class="modal-title" >A Modal Window</h4>
+</div>
+<div class="modal-body"></div>
+</div>
+  </div>
+</div> -->
+
+
+  </div><!-- end row -->
+
+</div><!-- end container -->
+<script src="http://code.jquery.com/jquery.js"></script>
+
+<!-- If no online access, fallback to our hardcoded version of jQuery -->
+<script>window.jQuery || document.write('<script src="02 - Starter Assets/includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+
+<!-- Bootstrap JS -->
+<script src="02 - Starter Assets/bootstrap/js/bootstrap.min.js"></script>
+
+<!-- Custom JS -->
+<script src="02 - Starter Assets/includes/js/script.js"></script>
+
+
+<footer>
+
+  <div class="container">
+    <div class="row">
+          <div class="col-sm-4">
+        <h6>About Us</h6>
+        <p align="center">Educational technology is defined by the Association for Educational Communications and Technology as "the study and ethical practice of facilitating learning and improving performance by creating, using, and managing appropriate technological processes and resources</p>
+      </div><!-- end col-sm-4 -->
+
+      <div class="col-sm-2">
+        <h6>Navigation</h6>
+        <ul class="mylist1">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Links</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div><!-- end col-sm-2 -->
+
+      <div class="col-sm-2">
+        <h6>Follow Us</h6>
+        <ul class="mylist2">
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Google Plus</a></li>
+        </ul>
+      </div><!-- end col-sm-2 -->
+
+      <div class="col-sm-2">
+        <h6>Contact Us</h6>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60607.433304521684!2d83.85546608395924!3d18.30322784892113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3c150ef1737321%3A0xa45cf11898953b7!2sSrikakulam%2C+Andhra+Pradesh+532001!5e0!3m2!1sen!2sin!4v1465903630567" width="400" height="120" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div><!-- end col-sm-2 -->
+
+      <div class="col-sm-12">
+      <h6>Copyright &copy; 2016 reserved </h6>
+      </div><!-- end col-sm-2 -->
+    </div><!-- end row -->
+  </div><!-- end container -->
+
+</footer>
+</body>
+</html>
